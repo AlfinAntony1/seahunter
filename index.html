@@ -1,0 +1,172 @@
+<html>
+<head>
+    <title>SEA HUNTER WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      .container {
+        margin-top: 50px;
+        max-width: 500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+      }
+      .error {
+        color: red;
+        margin-bottom: 10px;
+      }
+    </style>
+    
+</head>
+<body>
+    <section id="banner">
+        <img src="images/logo.jpg" class="logo">
+        <div class="banner-text">
+            <h1>SEA HUNTER</h1>
+            <p>Eat Fish...Stay Healthy</p>
+            <div class="banner-button">
+            
+                <a href="list-of-fish.html">Buy Now!</a>
+               <div onclick="redirectToFishPage()"></div>
+                 <a href="#">Explore More</a>
+
+            </div>
+        </div>
+        
+       
+          
+<!-- HTML code for the menu -->
+<nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#support">Support</a></li>
+    </ul>
+  </nav>
+  
+    </section>
+<section id="features">
+    <div class="title-text">
+    <p>FEATURES</p>
+    <h1>Why Choose Us</h1>
+    </div>
+    <div class="feature-box">
+        <div class="features">
+            <h1>Quality Fish</h1>
+            <div class="features-desc">
+                <div class="feature-text">
+                    <p>Provides an ocean freash fish caught on that day itself....</p>
+                </div>
+            </div>
+        </div>
+        <div class="features-img">
+            <img src="images/img1.jpg">
+        </div>
+    </div>
+</section>
+<div class="feature-box">
+    <div class="features">
+        <h1>Very Hygenic</h1>
+        <div class="features-desc">
+            <div class="feature-text">
+                <p>We provide a very Hygenic packing....</p>
+            </div>
+        </div>
+    </div>
+    <div class="features-img">
+        <img src="images/hy.jpg">
+    </div>
+</div>
+
+<!-----service ---->
+<section id="Service">
+<div class="service-text">
+    <p>SERVICES</p>
+    <h1>We Provide a better service!</h1>
+    </div>
+    <div class="service-box">
+        <div class="services">
+            <h1>Customer Care</h1>
+            <div class="service-desc">
+                <div class="service-text">
+                    <p>We provide a good customer support....</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-img">
+            <img src="images/c (1).jpg">
+        </div>
+    </div>
+</section>
+<div class="service-box">
+    <div class="services">
+        <h1>Home delivery</h1>
+        <div class="servie-desc">
+            <div class="service-text">
+                <p>We provide a fast delivery....</p>
+            </div>
+        </div>
+    </div>
+    <div class="services-img">
+        <img src="images/d.jpg">
+    </div>
+</div>
+<div class="text">
+    <p>THANK YOU!</p>
+</div>
+<div class="container">
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" name="phone" required>
+
+      <label for="time">Best Time to Contact:</label>
+      <input type="text" id="time" name="time">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  
+    
+</div>
+</body>
+</html>

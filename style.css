@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+}
+#banner{
+    background: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 6%;
+    left:45%;
+}
+.banner-text{
+    text-align:center;
+    color: rgb(45, 26, 189);
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 80px;
+}
+.banner-text p{
+    font-size: 25px;
+    font-style: oblique;
+}
+.banner-button{
+    margin:70px auto 0;
+}
+.banner-button a{
+    width: 150px;
+    text-decoration:dotted;
+    display: inline-block;
+    margin: 01;
+    padding: 12px 0;
+    color: rgb(16, 19, 228);
+    border: .5px solid rgb(49, 49, 157);
+}
+
+
+nav {
+    background-color: #2196F3; 
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+  }
+  nav li {
+    float: left; 
+  }
+  nav a {
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none; 
+  }
+  nav a:hover {
+    background-color: #111; 
+  }
+  nav {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1; 
+  }
+  
+  
+.title-text h1{
+    font-size: 40px;
+    position: absolute;
+    top: 80%;
+    left:42%;
+}
+.title-text p{
+    font-size: 50px;
+    position: absolute;
+    top: 90%;
+    left:43%;
+}
+.feature-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.features{
+    flex-basis: 50%;
+}
+.feature-img{
+    flex-basis: 40%;
+    left: 55%;
+}
+.features-img img{
+    width: 50%;
+    border-radius: 10px;
+}
+.features h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: black;
+}
+.features-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.feature-text p{
+    font-style: italic;
+}
+.feature-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.features{
+    flex-basis: 50%;
+}
+.feature-img{
+    flex-basis: 40%;
+    left: 55%;
+}
+.features-img img{
+    width: 50%;
+    border-radius: 10px;
+}
+.features h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: black;
+}
+.features-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.feature-text p{
+    font-style: italic;
+}
+
+
+.service-text h1{
+        font-size: 30px;
+        position:center;
+        nav-down: 30%;
+        right:42%;
+    }
+    .service-text p{
+        font-size: 40px;
+        position: bottom;
+        top: 90%;
+        right:43;
+    }
+    .service-box{
+        width: 80;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(40, 150, 187);
+    }
+    .services{
+        flex-basis: 50%;
+    }
+    .services-img{
+        flex-basis: 40%;
+        left: 55%;
+
+    }
+    
+    .services-img img{
+        width: 50%;
+        border-radius: 10px;
+    }
+    .services h1{
+        text-align: left;
+        margin-bottom: 10px;
+        font-weight: 100;
+        color: black;
+    }
+    .services-desc{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .service-text p{
+        font-style: italic;
+    }
+    .service-box{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(25, 159, 212);
+    }
+    .services{
+        flex-basis: 50%;
+    }
+    .service-img{
+        flex-basis: 40%;
+        left: 55%;
+    }
+    .services-img img{
+        width: 50%;
+        border-radius: 10px;
+    }
+    .services h1{
+        text-align: left;
+        margin-bottom: 10px;
+        font-weight: 100;
+        color: black;
+    }
+    .services-desc{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .service-text p{
+        font-style: italic;
+    }
+    .social-links{
+        text-align: center;
+    }
+    .text p{
+        font-size: 60px;
+        position: absolute;
+        align-items: center;
+        right: 43%;
+
+    }
+    
